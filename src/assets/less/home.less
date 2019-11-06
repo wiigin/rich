@@ -1,0 +1,1012 @@
+.home {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+
+  .bj {
+    width: 100%;
+    height: 1496px;
+    background: url("../../assets/img/bj.png") no-repeat top;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 2;
+
+
+    .bj_top {
+      width: 100%;
+      height: 590px;
+      background: url("../../assets/img/bj_top.png") no-repeat top;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .bj_bottom {
+      width: 100%;
+      height: 610px;
+      background: url("../../assets/img/bj_bottom.png") no-repeat top;
+      background-size: 100% 100%;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+
+    .bj_button {
+      width: 248px;
+      height: 88px;
+      background: url("../../assets/img/button.png") no-repeat top;
+      background-size: 100% 100%;
+      position: fixed;
+      bottom: 181px;
+      left: 253px;
+      animation: mybutton 1s infinite linear;
+    }
+  }
+
+  .loadingbj {
+    width: 100%;
+    height: 1496px;
+    background: url(https://wxcdn.kdcer.com/al_syb/bbbrich/loadingbj.png) no-repeat top;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    .loading {
+      width: 580px;
+      height: 280px;
+      background: url(https://wxcdn.kdcer.com/al_syb/bbbrich/loading.gif) no-repeat top;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .gamebj {
+    width: 100%;
+    height: 1496px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background: url("../../assets/img/gamebj.png") no-repeat top;
+    background-size: 100% 100%;
+
+    .move {
+      width: 177px;
+      height: 226px;
+      position: absolute;
+      top: 148px;
+      left: 492px;
+      background-size: 100% 100% !important;
+      z-index: 9;
+    }
+
+    .clickok {
+      width: 123px;
+      height: 123px;
+      position: absolute;
+      background: url("../../assets/img/dice.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 1080px;
+      right: 5px;
+      pointer-events: auto;
+      animation: mybutton2 1s infinite linear;
+    }
+
+    .clickno {
+      width: 123px;
+      height: 123px;
+      position: absolute;
+      background: url("../../assets/img/dice.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 1080px;
+      right: 5px;
+      pointer-events: none;
+    }
+
+    .jinrong {
+      width: 126px;
+      height: 255px;
+      position: absolute;
+      background: url("../../assets/img/jinrongzhongxin.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 410px;
+      left: 222px;
+      z-index: 10;
+    }
+
+    .text {
+      text-align: center;
+      font-size: 20px;
+      font-family: PingFang SC;
+      color: rgba(0, 0, 0, 1);
+      line-height: 38px;
+      font-weight: bold;
+      position: absolute;
+      top: 1196px;
+      right: 5px;
+    }
+
+    .mygift {
+      width: 246px;
+      height: 88px;
+      position: absolute;
+      background: url("../../assets/img/mygift.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 1230px;
+      left: 96px;
+    }
+
+    .sharefriend {
+      width: 246px;
+      height: 88px;
+      position: absolute;
+      background: url("../../assets/img/sharefriend.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 1230px;
+      right: 92px;
+    }
+
+    .gifs_one {
+      width: 131px;
+      height: 100px;
+      position: absolute;
+      background: url("../../assets/img/gift.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 350px;
+      left: 430px;
+    }
+
+    .gifs_two {
+      width: 131px;
+      height: 100px;
+      position: absolute;
+      background: url("../../assets/img/gift.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 454px;
+      left: 118px;
+    }
+
+    .gifs_three {
+      width: 131px;
+      height: 100px;
+      position: absolute;
+      background: url("../../assets/img/gift.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 984px;
+      left: 118px;
+    }
+
+    .gifs_four {
+      width: 131px;
+      height: 100px;
+      position: absolute;
+      background: url("../../assets/img/gift.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 1091px;
+      left: 325px;
+    }
+
+    .gifs_five {
+      width: 131px;
+      height: 100px;
+      position: absolute;
+      background: url("../../assets/img/gift.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 986px;
+      left: 535px;
+    }
+
+    .gifs_six {
+      width: 131px;
+      height: 100px;
+      position: absolute;
+      background: url("../../assets/img/gift.png") no-repeat top;
+      background-size: 100% 100%;
+      top: 559px;
+      left: 326px;
+    }
+  }
+
+  .rule {
+    width: 164px;
+    height: 63px;
+    background: url("../../assets/img/rule.png") no-repeat top;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  #Contrast {
+    width: 104px;
+    height: 104px;
+    position: absolute;
+    top: 177px;
+    left: 530px;
+  }
+
+  .Tips {
+    width: 430px;
+    height: 205px;
+    background: radial-gradient(circle, rgba(253, 246, 255, 1), rgba(232, 208, 243, 1));
+    border: 6px solid rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: rgba(100, 21, 105, 1);
+    line-height: 190px;
+
+    .Tips_dice {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      background-size: 100% 100% !important;
+      top: -180px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .ruleimgno2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    .QRcode_bj {
+      width: 526px;
+      height: 780px;
+      background: url("../../assets/img/nonum.png") no-repeat top;
+      background-size: 100% 100%;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 999;
+
+      .QRcode {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 330px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        img {
+          width: 200px;
+          height: 200px;
+        }
+      }
+
+      .QRcode_guanzhu {
+        width: 73%;
+        font-size: 20px;
+        font-family: Alibaba PuHuiTi;
+        color: rgba(144, 55, 150, 1);
+        line-height: 38px;
+        position: absolute;
+        top: 560px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+      }
+
+      .nonum_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/iknow.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 47px;
+        left: 142px;
+        z-index: 999;
+      }
+    }
+  }
+
+  .ruleimg {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+
+    .End_img {
+      width: 526px;
+      height: 672px;
+      background: url("../../assets/img/end.png") no-repeat top;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .End_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/backgo.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 46px;
+        left: 142px;
+      }
+    }
+
+    .prize_img_ts {
+      width: 536px;
+      height: 949px;
+      background: url("../../assets/img/ts.png") no-repeat top;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .text {
+        width: 409px;
+        height: 145px;
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(100, 21, 105, 0.9);
+        line-height: 40px;
+        position: absolute;
+        top: 583px;
+        left: 74px;
+        overflow: scroll;
+      }
+
+      .ts_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/iknow.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 50px;
+        left: 147px;
+      }
+    }
+
+    .ruleimg_img {
+      width: 526px;
+      height: 930px;
+      background: url("../../assets/img/ruleimg.png") no-repeat top;
+      background-size: 100% 100%;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .ruleimg_wenben {
+        width: 440px;
+        height: 360px;
+        overflow-y: scroll;
+        margin: 390px auto 0 auto;
+
+        .ruleimg_text {
+          text-align: left;
+          font-size: 24px;
+          font-family: PingFang SC;
+          font-weight: 400;
+          color: rgba(100, 21, 105, 1);
+          line-height: 48px;
+        }
+      }
+
+      .ruleimg_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/iknow.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 47px;
+        left: 142px;
+      }
+    }
+
+    .friend_img {
+      width: 447px;
+      height: 200px;
+      background: url("../../assets/img/friend.png") no-repeat top;
+      background-size: 100% 100%;
+      position: fixed;
+      top: 52px;
+      left: 255px;
+
+      .jiantou {
+        width: 49px;
+        height: 92px;
+        background: url("../../assets/img/jiantou.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 1px;
+        left: 375px;
+      }
+    }
+
+    .nonum_img {
+      width: 526px;
+      height: 780px;
+      background: url("../../assets/img/nomum2.png") no-repeat top;
+      background-size: 100% 100%;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .goshare {
+        width: 109px;
+        height: 52px;
+        background: url("../../assets/img/goshare.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 278px;
+        left: 374px;
+      }
+
+      .nogoshare {
+        width: 109px;
+        height: 52px;
+        background: url("../../assets/img/nogoshare.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 278px;
+        left: 374px;
+      }
+
+      .goguanzhu {
+        width: 109px;
+        height: 52px;
+        background: url("../../assets/img/goguanzhu.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 220px;
+        left: 374px;
+      }
+
+      .nogoguanzhu {
+        width: 109px;
+        height: 52px;
+        background: url("../../assets/img/nogoguanzhu.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 220px;
+        left: 374px;
+      }
+
+      .nonum_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/iknow.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 47px;
+        left: 142px;
+      }
+
+      .text {
+        width: 100%;
+        font-size: 20px;
+        font-family: Alibaba PuHuiTi;
+        font-weight: 400;
+        color: rgba(144, 55, 150, 0.6);
+        line-height: 38px;
+        position: absolute;
+        top: 590px;
+        text-align: center;
+      }
+    }
+
+    .prize_img {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 70%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .prizeyes_img {
+      width: 526px;
+      height: 836px;
+      background: url("../../assets/img/yes.png") no-repeat top;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .prize_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/shouxia.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 46px;
+        left: 142px;
+      }
+
+      .card_namelong {
+        width: 320px;
+        font-size: 21px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: rgba(55, 18, 131, 1);
+        line-height: 37px;
+        text-align: left;
+        position: absolute;
+        top: 470px;
+        left: 80px;
+      }
+
+      .card_name {
+        font-size: 32px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: rgba(55, 18, 131, 1);
+        line-height: 37px;
+        text-align: left;
+        position: absolute;
+        top: 475px;
+        left: 82px;
+      }
+
+      .time {
+        font-size: 16px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(55, 18, 131, 0.8);
+        line-height: 38px;
+        text-align: left;
+        position: absolute;
+        top: 547px;
+        left: 79px;
+      }
+
+      .address {
+        font-size: 16px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(55, 18, 131, 0.8);
+        line-height: 38px;
+        text-align: left;
+        position: absolute;
+        top: 574px;
+        left: 79px;
+      }
+    }
+
+    .close {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .hx_img {
+      width: 526px;
+      height: 672px;
+      background: url("../../assets/img/hxpop.png") no-repeat top;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 999;
+
+      input {
+        width: 410px;
+        height: 74px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 37px;
+        border: 0;
+        text-align: center !important;
+        position: absolute;
+        top: 396px;
+        left: 59px;
+      }
+
+      .hx_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/okhx.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 46px;
+        left: 142px;
+      }
+
+      .text {
+        width: 100%;
+        font-size: 20px;
+        font-family: Alibaba PuHuiTi;
+        font-weight: 400;
+        color: rgba(144, 55, 150, 0.6);
+        line-height: 38px;
+        text-align: center;
+        position: absolute;
+        top: 492px;
+      }
+    }
+
+    .hxlose_img {
+      width: 526px;
+      height: 672px;
+      background: url("../../assets/img/hxlose.png") no-repeat top;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 999;
+
+      .ex {
+        width: 403px;
+        height: 39px;
+        background: url("../../assets/img/ex.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 413px;
+        left: 61px;
+      }
+
+      .text {
+        font-size: 20px;
+        font-family: Alibaba PuHuiTi;
+        font-weight: 400;
+        color: rgba(144, 55, 150, 0.6);
+        line-height: 38px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 492px;
+      }
+
+      .hxlose_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/again.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 46px;
+        left: 142px;
+      }
+    }
+
+    .hxok_img {
+      width: 526px;
+      height: 672px;
+      background: url("../../assets/img/hxok.png") no-repeat top;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 999;
+
+      .ex {
+        width: 403px;
+        height: 39px;
+        background: url("../../assets/img/exok.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 413px;
+        left: 61px;
+      }
+
+      .text {
+        font-size: 20px;
+        font-family: Alibaba PuHuiTi;
+        font-weight: 400;
+        color: rgba(144, 55, 150, 0.6);
+        line-height: 38px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 492px;
+      }
+
+      .hxok_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/i.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 46px;
+        left: 142px;
+      }
+    }
+  }
+
+  .ruleimgno {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+
+    .prize_img_ts {
+      width: 536px;
+      height: 949px;
+      background: url("../../assets/img/ts.png") no-repeat top;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .text {
+        width: 409px;
+        height: 145px;
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(100, 21, 105, 0.9);
+        line-height: 40px;
+        position: absolute;
+        top: 583px;
+        left: 74px;
+        overflow: scroll;
+      }
+
+      .ts_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/iknow.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 50px;
+        left: 147px;
+      }
+    }
+
+    .prize_img {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 70%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+      }
+    }
+
+    .bigbj {
+      width: 246px;
+      height: 88px;
+      background: url("../../assets/img/iknow.png") no-repeat top;
+      background-size: 100% 100%;
+
+      .bigbj_button {
+        width: 246px;
+        height: 88px;
+        background: url("../../assets/img/shouxia.png") no-repeat top;
+        background-size: 100% 100%;
+      }
+    }
+  }
+
+  .myprize {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(253, 246, 255, 1), rgba(232, 208, 243, 1));
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .no {
+      width: 254px;
+      height: 256px;
+      background: url("../../assets/img/no.png") no-repeat top;
+      background-size: 100% 100%;
+      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 208px;
+    }
+
+    .card {
+      width: 693px;
+      height: 311px;
+      background: url("../../assets/img/card.png") no-repeat top;
+      background-size: 100% 100%;
+      margin: 0 auto;
+      display: inline-block;
+      margin-top: 32px;
+      position: relative;
+
+      .card_namelong {
+        width: 487px;
+        font-size: 32px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: rgba(55, 18, 131, 1);
+        line-height: 56px;
+        text-align: left;
+        position: absolute;
+        top: 55px;
+        left: 68px;
+      }
+
+      .card_name {
+        font-size: 48px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: rgba(55, 18, 131, 1);
+        line-height: 56px;
+        text-align: left;
+        position: absolute;
+        top: 63px;
+        left: 71px;
+      }
+
+      .time {
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(55, 18, 131, 0.8);
+        line-height: 38px;
+        text-align: left;
+        position: absolute;
+        top: 186px;
+        left: 67px;
+      }
+
+      .address {
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(55, 18, 131, 0.8);
+        line-height: 38px;
+        text-align: left;
+        position: absolute;
+        top: 229px;
+        left: 67px;
+      }
+    }
+
+    .cardhx {
+      width: 693px;
+      height: 311px;
+      background: url("../../assets/img/card.png") no-repeat top;
+      background-size: 100% 100%;
+      margin: 0 auto;
+      display: inline-block;
+      margin-top: 32px;
+      position: relative;
+
+      .card_namelong {
+        width: 487px;
+        font-size: 32px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: rgba(55, 18, 131, 1);
+        line-height: 56px;
+        text-align: left;
+        position: absolute;
+        top: 55px;
+        left: 68px;
+      }
+
+      .card_name {
+        font-size: 48px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: rgba(55, 18, 131, 1);
+        line-height: 56px;
+        text-align: left;
+        position: absolute;
+        top: 63px;
+        left: 71px;
+      }
+
+      .hx {
+        width: 220px;
+        height: 167px;
+        background: url("../../assets/img/hx.png") no-repeat top;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 108px;
+        right: 23px;
+      }
+
+      .time {
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(55, 18, 131, 0.8);
+        line-height: 38px;
+        text-align: left;
+        position: absolute;
+        top: 186px;
+        left: 67px;
+      }
+
+      .address {
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(55, 18, 131, 0.8);
+        line-height: 38px;
+        text-align: left;
+        position: absolute;
+        top: 229px;
+        left: 67px;
+      }
+    }
+
+    .lable {
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: rgba(55, 18, 131, 0.3);
+      line-height: 38px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .back {
+      width: 246px;
+      height: 88px;
+      background: url("../../assets/img/back.png") no-repeat top;
+      background-size: 100% 100%;
+      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 306px;
+    }
+  }
+}
+
+@keyframes mybutton {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2)
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+@keyframes mybutton2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2)
+  }
+  100% {
+    transform: scale(1)
+  }
+}
